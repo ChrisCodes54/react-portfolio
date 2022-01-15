@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function works() {
+export default function Works() {
   return (
-    <section class="text-center" id="mywork">
+    <div class="text-center" id="mywork">
       <h2>My Work</h2>
       <div class="container row">
         <div class="card mx-5" style="width: 18rem">
@@ -54,6 +54,6 @@ export default function works() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
