@@ -1,22 +1,22 @@
 
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import About from './About';
-// import Works from './Works';
-// import Contact from './Contact';
-// import Footer from './components/Footer';
-// import Navbar from './components/Navbar'
+import NavBar from "./components/Navbar/NavBar";
+import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Works from  "./components/Works/Works"
 
-//import all of the components header footer etc..
 
 const App = () => {
     return (
-        // <Header />,
-        // <Navbar />,
-        // <About />,
-        <PortfolioContainer />
+        <div>
+        <NavBar/>
+        <Header/>
+        <About/>
+        <Works/>
+        </div>
     )
 }
 
