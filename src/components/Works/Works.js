@@ -16,7 +16,7 @@ export default function Works() {
                   longer.
                 </p>
                 <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+               
                 </p>
               </div>
             </div>
@@ -31,7 +31,7 @@ export default function Works() {
                 additional content.
               </p>
               <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
+            
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Works() {
                 than the first to show that equal height action.
               </p>
               <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
+      
               </p>
             </div>
           </div>
