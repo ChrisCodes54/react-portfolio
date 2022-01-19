@@ -8,7 +8,7 @@ import './Works.css';
 export default function Works() {
   return (
     <div class="card text-center">
-      <div class="card-header">My Works</div>
+      <div class="card-header" id="myworks">My Works</div>
       <div class="card-body">
         <div class="container">
           <div class="card-deck">

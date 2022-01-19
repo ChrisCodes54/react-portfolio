@@ -1,6 +1,6 @@
 
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+// import PortfolioContainer from "./components/PortfolioContainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../src/App.css"
 import Header from "./components/Header/Header";
@@ -16,6 +16,7 @@ const App = () => {
         <About/>
         <Works/>
         <Footer />
+        <Contact/>
         
         </div>
     )

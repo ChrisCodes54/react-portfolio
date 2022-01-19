@@ -10,10 +10,10 @@ function NavBar({ currentPage, handlePageChange }) {
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#myWorks">My Works</a>
+        <a class="nav-link" href="#myworks">My Works</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact Me!</a>
