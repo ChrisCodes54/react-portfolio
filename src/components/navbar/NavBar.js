@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
@@ -10,10 +11,10 @@ function NavBar({ currentPage, handlePageChange }) {
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
+        <NavLink class="nav-link" to="/about">About Me</NavLink>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#myworks">My Works</a>
+        <NavLink class="nav-link" to="/works">My Works</NavLink>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact Me!</a>

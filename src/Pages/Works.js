@@ -1,8 +1,8 @@
 import React from "react";
-import Dayplanner from '../../assets/dayplanner.png'
-import Techbloghome from '../../assets/tech-blog-home.png'
-import Everyonesacritic from '../../assets/everyonesacritic.png'
-import './Works.css';
+import Dayplanner from '../assets/dayplanner.png'
+import Techbloghome from '../assets/tech-blog-home.png'
+import Everyonesacritic from '../assets/everyonesacritic.png'
+import '../Styles/Works.css';
 
 
 export default function Works() {
