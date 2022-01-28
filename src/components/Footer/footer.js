@@ -5,7 +5,7 @@ import "../../Styles/Footer.css"
 
 export default function Footer() {
   return (
-    <div class="text-center">
+    <div class="text-center" id="footer">
       <footer>
         <div class="container">
           <a class="icons" href="https://github.com/ChrisCodes54">

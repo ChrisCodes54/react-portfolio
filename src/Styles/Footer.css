@@ -1,3 +1,11 @@
 .icons  {
     padding: 0px 10px;    
 }
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    right: 45%;
+
+}
