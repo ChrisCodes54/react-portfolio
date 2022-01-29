@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../components/Header/Header';
-import NavBar from '../components/Navbar/NavBar';
+
 
 function Homepage () {
     return (
+
         <div>
         <Header/>
         </div>
+
     )
 }
 

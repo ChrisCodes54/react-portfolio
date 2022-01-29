@@ -17,7 +17,7 @@ function NavBar({ currentPage, handlePageChange }) {
         <NavLink className="nav-link" to="/works">My Works</NavLink>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact Me!</a>
+        <NavLink className="nav-link" to="/contact">Contact Me!</NavLink>
       </li>
     </ul>
   </div>
