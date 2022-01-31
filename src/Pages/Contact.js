@@ -7,14 +7,14 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_o4rx4dr', form.current, 'user_e3xioD9DxjxuKMVKwRYSc')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
-
+    emailjs.sendForm('service_yue36za', 'template_6ddebja', form.current, 'user_e3xioD9DxjxuKMVKwRYSc')
+      .then(res => {
+        console.log(res);
+      }) .catch(err => console.log(err));
+      e.target.reset();
+      }
+        
+      
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>

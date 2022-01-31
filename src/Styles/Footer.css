@@ -9,3 +9,9 @@
     right: 45%;
 
 }
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
