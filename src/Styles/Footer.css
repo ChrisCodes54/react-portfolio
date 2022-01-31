@@ -1,17 +1,19 @@
 .icons  {
-    padding: 0px 10px;    
+    padding: 0px 10px; 
+    
 }
 
-#footer {
+footer {
     position: absolute;
-    bottom: 0;
-    left: 45%;
-    right: 45%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  
+  text-align: center;
+    
+    
+    
 
 }
 
-.icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}

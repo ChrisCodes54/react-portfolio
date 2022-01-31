@@ -1,25 +1,39 @@
 import React from "react";
 
+import { Container, Row, Col } from "react-bootstrap";
+import '../Styles/About.css'
 export default function About() {
   return (
-    <div class="card text-center">
-      <div class="card-header" id="aboutme">About Me</div>
-      <div class="card-body">
-        <h5 class="card-title">Who Am I ?</h5>
-        <p class="card-text">
-          My path to becoming a Full Stack Developer was not conventinal nor was
-          it traditional. I spent 5 years at Rutgers University and that in it
-          of itself was a journey. I graduated with a bachelor's in Journalism
-          and media Studies, a minor in digital communiction, and then ending it
-          with a Certifical in Digital Filmmaking. Pursuing Full Stack
-          Developement came to me when I learned about the ins and outs of
-          building full applications from front to back and learning different
-          types of Languages. As someone who speaks different languages and
-          apreciates the beauty of it, Coding was a natural fit and I have not
-          looked back since.
-        </p>
-      </div>
+    <div>
+      <Container>
+        <Row>
+          <Col>
+          <img src="profile-pic.jpg" alt="Chris standing smiling at the camera" width='500' height='500'/> 
+          </Col>
+          <Col className="about-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. At
+            volutpat diam ut venenatis tellus in. Luctus accumsan tortor posuere
+            ac ut consequat. Sit amet nisl suscipit adipiscing bibendum est
+            ultricies integer quis. Et ultrices neque ornare aenean euismod. Et
+            tortor at risus viverra adipiscing. Neque convallis a cras semper
+            auctor neque vitae tempus. Aliquam ut porttitor leo a diam
+            sollicitudin tempor. Risus viverra adipiscing at in tellus integer
+            feugiat scelerisque. Purus viverra accumsan in nisl nisi
+            scelerisque. Pellentesque dignissim enim sit amet. Amet tellus cras
+            adipiscing enim eu turpis egestas pretium aenean. Amet risus nullam
+            eget felis eget nunc lobortis. Risus nullam eget felis eget nunc
+            lobortis mattis. Velit sed ullamcorper morbi tincidunt ornare massa
+            eget egestas. Cras fermentum odio eu feugiat pretium nibh ipsum.
+            Integer enim neque volutpat ac tincidunt vitae semper. Sed
+            ullamcorper morbi tincidunt ornare massa. Natoque penatibus et
+            magnis dis parturient montes nascetur ridiculus mus. Diam in arcu
+            cursus euismod quis. Vitae tempus quam pellentesque nec nam aliquam.
+            Adipiscing tristique risus nec feugiat in fermentum posuere. Etiam
+            sit amet nisl purus. Cum sociis natoque penatibus et.
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
-

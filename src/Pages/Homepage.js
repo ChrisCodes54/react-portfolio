@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-
+import About from './About'
+import '../Styles/Homepage.css'
 
 function Homepage () {
     return (
 
-        <div>
-        <Header/>
+        <div >
+        <About/>
         </div>
 
     )

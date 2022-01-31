@@ -2,15 +2,8 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-5">Christopher Tangarife</h1>
-        <p class="lead">
-          As a Full Stack Developer my goal is to work for a company whose goals
-          is to change the world. Working on real world projects that can help
-          people is my nunber one goal
-        </p>
-      </div>
+    <div>
+      h1
     </div>
   );
 }
